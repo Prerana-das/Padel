@@ -1,0 +1,403 @@
+/*=======================
+	1.COMMON CSS
+	2.HOME
+
+
+
+
+
+
+
+===========================*/
+
+
+/*1.COMMON CSS*/
+@font-face {
+    font-family: Bebus;
+    src: url('../../assets/fonts/BebasNeue-Regular.ttf');
+}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+html,body{
+	font-family:Bebus;
+}
+ul{
+	list-style:none;
+	margin-bottom: 0px;
+}
+a:hover{
+	text-decoration: none;
+}
+img{
+	max-width:100%;
+}
+p{
+	margin-bottom: 0px;
+}
+h1,h2,h3,h4,h5,h6{
+	margin-bottom: 0px;
+}
+._border_color{
+	border-color: #ddd !important;
+}
+/*1.COMMON CSS END*/
+
+
+/*==== 2.HOME =====*/
+.header_area {
+    padding: 10px 0px;
+}
+.main_menu{
+	padding-top:5px;
+}
+.main_menu ul li{
+	padding: 0px 15px;
+}
+.main_menu ul li a {
+    padding: 10px 5px;
+    display: inline-block;
+    color:#999999;
+    text-transform: uppercase;
+    transition:.5s;
+    font-weight: 600;
+     font-size: 17px;
+    border-bottom:2px solid transparent; 
+}
+
+.main_menu ul li a:hover{
+	border-bottom:2px solid #e66b62; 
+}
+
+.main_menu ul li {
+    display: inline-block;
+}
+.main_menu li > a.current {
+	color: #333333;
+	border-color:#e66b62; 
+}
+
+
+
+.logo{}
+.logo img {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+.logo h2 {
+    font-size: 17px;
+    text-transform: uppercase;
+    line-height: 50px;
+     display: inline-block;
+    font-weight: 600;
+}
+
+.tournaments_area{
+	padding: 20px 0px;
+}
+
+
+/* Left Part */
+.left_part{
+	border:1px solid #b2b2b2;
+	border-radius:4px;
+}
+.news_image {
+    padding: 16px 16px 0px 16px;
+}
+.news{
+	padding:25px;
+}
+.news_title{}
+.news_title h2 {
+    font-size: 21px;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+.news_title p {
+    font-family: serif;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+.news_date{
+	background-color:#333333;
+	border-radius:4px;
+	padding: 6px;
+	text-align:center;
+}
+.news_date h4 {
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+.news .col-lg-3{
+	padding-left:0px;
+}
+.news_date h4 span {
+    font-size: 23px;
+    line-height: 22px;
+}
+
+
+
+
+
+.season{
+	padding: 25px 16px;
+	border-top:1px solid #b2b2b2;
+	border-bottom:1px solid #b2b2b2;
+}
+.season ul {
+    margin-bottom: 8px;
+}
+.season ul li{
+	display: inline-block;
+}
+.season ul li:first-child{
+	  font-weight: 600;
+}
+.season ul li a {
+    width: 20px;
+    height: 20px;
+    display: block;
+    line-height: 20px;
+    font-size: 12px;
+    text-align: center;
+    color:#999999;
+}
+.season ul li:last-child a{
+	border-radius:50%;
+	background-color:#e66b62; 
+	color:#fff;
+}
+a.border_btn {
+    padding: 2px 12px;
+    border: 2px solid #6095ba;
+    color: #6095ba;
+    font-weight: 600;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 4px;
+    transition: .4s;
+    margin-left: 44px;
+}
+a.border_btn:hover{
+	background-color:#6095ba;
+	color:#fff;
+}
+
+.division{
+	padding: 25px;
+}
+.division ul li {
+    cursor: pointer;
+    text-align: right;
+    padding: 3px 5px;
+    font-weight: 600;
+    margin: 6px 0px;
+    color: #999999;
+}
+.division li.active {
+	color: #333333;
+	border-right:2px solid #e66b62; 
+}
+
+
+/* schedule area */
+.schedule_area{}
+.schedule_area_cont{}
+.schedule_nav {
+    margin-left: 110px;
+    margin-bottom:15px;
+}
+.schedule_nav ul li{
+	display: inline-block;
+}
+.schedule_nav ul li a{
+	 padding: 7px 5px;
+    display: inline-block;
+    color:#999999;
+    text-transform: uppercase;
+    transition:.5s;
+    border-bottom:2px solid transparent; 
+}
+.schedule_nav li > a.current {
+	color: #333333;
+	border-color:#e66b62; 
+	 font-weight: 600;
+}
+.search{}
+.search i {
+    width: 30px;
+    height: 30px;
+    background-color: #242424;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.main{
+	padding: 0px 40px;
+}
+
+
+
+/* Single schedule */
+.schedule_div{
+    margin-bottom: 30px;
+}
+.schedule_date h3 {
+     font-size:19px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 6px;
+}
+.date {
+    text-align: center;
+    border: 1px solid #b2b2b2;
+    border-radius: 4px;
+    margin: 0px 12px;
+}
+.date h3 {
+	padding-top:6px;
+	 font-size: 14px;
+    margin-bottom: 0px;
+}
+.date h3 span{
+	font-size: 23px;
+}
+.date p {
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+.date h5 {
+	background-color: #242424;
+	color: #fff;
+	font-size: 15px;
+	margin-bottom: 0px;
+	padding: 6px;
+}
+
+
+
+
+
+.single_schedule{
+	border:1px solid;
+	border-radius: 4px;
+	margin-bottom:7px;
+}
+
+.image1 ,.image2{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.team {
+    text-align: center;
+    border-right: 1px solid;
+    padding: 10px;
+}
+.team_info{}
+.team_info p {
+      width: 8em;
+    overflow: hidden;
+    font-weight: 600;
+    text-align: right;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 5px 0px;
+}
+
+.team img{
+	border-radius:50%;
+}
+.image1{
+	position:relative;
+}
+.team1 .image1 {
+    position: absolute;
+    content: "";
+     left: 55px;
+    top: 0px;
+}
+.team2 .image2 {
+    position: absolute;
+    content: "";
+    left: 46px;
+    top: 0px;
+}
+.vs span {
+    font-size: 12px;
+    margin-top: 10px;
+    display: inline-block;
+    color: #999999;
+}
+p.court {
+    font-size: 10px;
+    font-family: serif;
+    text-transform: uppercase;
+}
+
+
+
+h4.title_h4 {
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 7px;
+}
+.scores{
+	text-align: center;
+	border-right:1px solid;
+	padding: 10px;
+	 height: 100%;
+}
+.scores ul {
+    display: inline-block;
+    margin:10px 8px 0px 0px;
+    border:1px solid #ddd;
+    border-radius:4px;
+    text-align: center;
+  }
+  .scores ul:last-child{
+  	margin-right:0px;
+  }
+.scores ul li {
+    display: inline-block;
+    padding: 1px 7px;
+    font-size: 12px;
+    border-right: 1px solid #ddd;
+    color: #999999;
+}
+.scores ul li:last-child{
+	border-right:0px;
+}
+
+
+
+.result{
+	padding: 10px;
+	text-align: center;
+}
+.result ul li{
+	display: inline-block;
+	font-size: 13px;
+	margin-top:10px;
+}
+
+
+.incomplete_match a {
+    font-size: 14px;
+    font-weight: 600;
+}
+/*==== 2.HOME END=====*/
